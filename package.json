@@ -1,0 +1,23 @@
+{
+  "name": "vue-chart-js",
+  "version": "1.0.0",
+  "description": "Chart.js for VueJs.",
+  "author": "Kevin Ongko",
+  "main": "src/vue-chart-js.vue",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinongko/vue-chart-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kevinongko/vue-chart-js/issues"
+  },
+  "keywords": [
+    "chart",
+    "chart.js",
+    "wrapper",
+    "vue",
+    "vue.js"
+  ],
+  "homepage": "https://github.com/kevinongko/vue-chart-js#readme",
+  "license": "MIT"
+}
