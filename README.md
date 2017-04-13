@@ -1,7 +1,8 @@
 # vue-chart-js
 
-[![npm version](https://badge.fury.io/js/vue-chart-js.svg)](https://badge.fury.io/js/vue-chart-js)
+[![npm](https://img.shields.io/npm/v/vue-chart-js.svg)](https://www.npmjs.com/package/vue-chart-js)
 [![npm](https://img.shields.io/npm/dt/vue-chart-js.svg)](https://www.npmjs.com/package/vue-chart-js)
+[![npm](https://img.shields.io/npm/dm/vue-chart-js.svg)](https://www.npmjs.com/package/vue-chart-js)
 [![npm](https://img.shields.io/npm/l/vue-chart-js.svg)](http://opensource.org/licenses/MIT)
 
 [Chart.js](http://www.chartjs.org/) for [Vue](https://vuejs.org/).
