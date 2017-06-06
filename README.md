@@ -51,47 +51,13 @@ export default {
 ```
 
 ## Props
-```js
-  /**
-   * Chart.js type.
-   */
-  type: {
-    required: true,
-    type: String
-  },
-
-  /**
-   * Chart.js datasets.
-   */
-  data: {
-    required: true,
-    type: Object
-  },
-
-  /**
-   * Chart.js options.
-   */
-  option: {
-    required: false,
-    type: Object
-  },
-
-  /**
-   * Chart width.
-   */
-  width: {
-    required: false,
-    type: Number
-  },
-
-  /**
-   * Chart height.
-   */
-  height: {
-    required: false,
-    type: Number
-  },
-```
+|Props|Description|Type|Required|
+|-----|-----------|----|--------|
+|type|Chart.js type|String|true|
+|data|Chart.js datasets|Object|true|
+|options|Chart.js options|Object|false|
+|width|Chart width|Number|false|
+|height|Chart height|Number|false|
 
 ## License
 
