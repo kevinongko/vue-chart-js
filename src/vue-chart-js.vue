@@ -17,7 +17,7 @@ export default {
       required: true,
       type: Object
     },
-    option: Object,
+    options: Object,
     width: Number,
     height: Number
   },
@@ -40,7 +40,7 @@ export default {
       this.chart = new Chart(this.$refs.chart, {
         type: this.type,
         data: this.data,
-        option: this.option
+        options: this.options
       })
     }
   },
