@@ -41,7 +41,7 @@ Vue.use(VueChart)
 <script src="https://unpkg.com/vue-chart-js"></script>
 
 <script>
-  Vue.use(Vuechart.default)
+  Vue.use(VueChart.default)
 </script>
 ```
 
