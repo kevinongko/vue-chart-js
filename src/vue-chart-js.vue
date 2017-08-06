@@ -6,7 +6,7 @@
 import Chart from 'chart.js'
 
 export default {
-  name: 'chart',
+  name: 'vue-chart',
 
   props: {
     type: {
@@ -27,7 +27,7 @@ export default {
   }),
 
   watch: {
-    'data' () {
+    data () {
       this.chart.destroy()
       this.$nextTick(() => {
         this.createChart()

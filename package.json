@@ -1,9 +1,13 @@
 {
   "name": "vue-chart-js",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Chart.js for VueJs.",
   "author": "Kevin Ongko",
-  "main": "src/vue-chart-js.vue",
+  "main": "dist/vue-chart-js.min.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --ext .js,.vue src",
+    "build": "./node_modules/.bin/webpack --hide-modules -p --progress"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kevinongko/vue-chart-js.git"
@@ -22,5 +26,28 @@
   "license": "MIT",
   "dependencies": {
     "chart.js": "^2.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-latest": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.4",
+    "eslint": "4.3.0",
+    "eslint-plugin-vue": "3.10.0",
+    "vue-loader": "^13.0.4",
+    "vue-template-compiler": "^2.4.2",
+    "webpack": "^3.4.1"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:vue/recommended"
+    ]
   }
 }
