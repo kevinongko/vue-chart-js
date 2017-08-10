@@ -15,7 +15,7 @@ export default {
     },
     data: {
       required: true,
-      type: Object
+      type: [Object, Array]
     },
     options: Object,
     width: Number,
