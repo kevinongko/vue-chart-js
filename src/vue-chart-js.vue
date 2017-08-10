@@ -27,11 +27,12 @@ export default {
   }),
 
   watch: {
-    data () {
-      this.chart.destroy()
-      this.$nextTick(() => {
-        this.createChart()
-      })
+    'data.labels' () {
+      this.chart.update()
+    },
+
+    'data.datasets' () {
+      this.chart.update()
     }
   },
 
