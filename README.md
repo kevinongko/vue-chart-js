@@ -11,11 +11,21 @@
 
 ## Installation
 
+### Install via CDN
+```html
+<script src="https://unpkg.com/vue"></script>
+<script src="https://unpkg.com/vue-chart-js"></script>
+
+<script>
+  Vue.use(VueChart.default)
+</script>
+```
+### Install via NPM
 ```sh
 $ npm install vue-chart-js --save
 ```
 
-### Install as Component
+#### Register as Component
 ```js
 import Vue from 'vue'
 import VueChart from 'vue-chart-js'
@@ -29,22 +39,12 @@ export default {
 }
 ```
 
-### Install as Plugin
+#### Register as Plugin
 ```js
 import Vue from 'vue'
 import VueChart from 'vue-chart-js'
 
 Vue.use(VueChart)
-```
-
-### Install via CDN
-```html
-<script src="https://unpkg.com/vue"></script>
-<script src="https://unpkg.com/vue-chart-js"></script>
-
-<script>
-  Vue.use(VueChart.default)
-</script>
 ```
 
 ## Usage
