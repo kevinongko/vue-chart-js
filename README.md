@@ -5,7 +5,9 @@
 [![npm](https://img.shields.io/npm/dm/vue-chart-js.svg)](https://www.npmjs.com/package/vue-chart-js)
 [![npm](https://img.shields.io/npm/l/vue-chart-js.svg)](http://opensource.org/licenses/MIT)
 
-[Chart.js](http://www.chartjs.org/) for [Vue](https://vuejs.org/).
+[Chart.js](http://www.chartjs.org/) wrapper component based on [Vue](https://vuejs.org/).
+
+**Works with Vue 2.***
 
 ## Installation
 
