@@ -15,31 +15,34 @@ module.exports = {
     extensions: ['.js', '.json', '.vue']
   },
   entry: './src/index.js',
+  externals: {
+    'chart.js': 'Chart'
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: "vue-chart-js.min.js",
     library: 'VueChart',
     libraryTarget: 'umd',
-    umdNamedDefine: true,
+    umdNamedDefine: true
   },
   module: {
     rules: [
       {
         test: /\.vue$/,
-        loader: 'vue-loader',
+        loader: 'vue-loader'
       },
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        exclude: path.resolve(__dirname, 'node_modules'),
+        exclude: path.resolve(__dirname, 'node_modules')
       },
     ]
   },
   plugins: [
-    new CleanWebpackPlugin(['./dist']),
+    new CleanWebpackPlugin(['./dist'])
   ],
   devtool: false,
   performance: {
-    hints: false,
+    hints: false
   }
 }

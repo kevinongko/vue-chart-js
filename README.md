@@ -13,6 +13,7 @@
 
 ### Install via CDN
 ```html
+<script src="https://unpkg.com/chart.js"></script>
 <script src="https://unpkg.com/vue"></script>
 <script src="https://unpkg.com/vue-chart-js"></script>
 
