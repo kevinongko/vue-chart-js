@@ -16,7 +16,12 @@ module.exports = {
   },
   entry: './src/index.js',
   externals: {
-    'chart.js': 'Chart'
+    'chart.js': {
+      commonjs: 'chart.js',
+      commonjs2: 'chart.js',
+      amd: 'chart.js',
+      root: 'Chart'
+    }
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
